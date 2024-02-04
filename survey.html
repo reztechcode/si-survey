@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SI-Survey</title>
+    <link rel="stylesheet" href="./assets/css/styles.min.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg text-light navbar-dark">
+        <div class="container-sm">
+            <a class="navbar-brand" href="#">Survey Layanan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto ps-2 mb-2 mb-lg-0 d-flex align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link link-nav" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-nav" aria-current="page" href="./profile.html">User</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-nav" aria-current="page" href="#logout">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row pt-3">
+            <div class="col-md-12">
+                <h3>Silahkan untuk mengisi form survey</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 pt-3">
+                <div class="card">
+                    <div class="card-header bg-primary">
+                        <h5 class="text-light">Form Survey Layanan</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Nama</label>
+                                    <input type="text" class="form-control" id="name" name="name">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="mb-3">
+                                    <label for="nik" class="form-label">Nomor NIK</label>
+                                    <input type="number" class="form-control" name="nik" id="nik" value="" min="1"
+                                        max="9999999999999999">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p class="px-2">1. Berapa nilai kualitas untuk layanan kesehatan :</p>
+                                    </div>
+                                    <div class="col-6 pt-1">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="l_kesehatan" id="lk"
+                                                value="1" required>
+                                            <label class="form-check-label" for="lk">1</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="l_kesehatan" id="lk1"
+                                                value="2" required>
+                                            <label class="form-check-label" for="lk1">2</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="l_kesehatan" id="lk2"
+                                                value="3" required>
+                                            <label class="form-check-label" for="lk2">3</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="l_kesehatan" id="lk3"
+                                                value="4" required>
+                                            <label class="form-check-label" for="lk3">4</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="l_kesehatan" id="lk4"
+                                                value="5" required>
+                                            <label class="form-check-label" for="lk4">5</label>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="col-md-6">
+                                        <p class="px-2">2. Berapa nilai kualitas untuk layanan pendidikan :</p>
+                                    </div>
+                                    <div class="col-6 pt-1">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="l_pendidikan" id="lp"
+                                                value="1" required>
+                                            <label class="form-check-label" for="lp">1</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="l_pendidikan" id="lp1"
+                                                value="2" required>
+                                            <label class="form-check-label" for="lp1">2</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="l_pendidikan" id="lp2"
+                                                value="3" required>
+                                            <label class="form-check-label" for="lp2">3</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="l_pendidikan" id="lp3"
+                                                value="4" required>
+                                            <label class="form-check-label" for="lp3">4</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="l_pendidikan" id="lp4"
+                                                value="5" required>
+                                            <label class="form-check-label" for="lp4">5</label>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#isi" class="btn btn-primary">Isi Survey</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class=" text-center text-lg-start ">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(55, 55, 55, 0.05);">
+            © 2024, code:
+            <a class="link" href="https://rezweb.my.id/">rezweb.my.id,</a>
+            <br>
+            <small>Aplikasi ini sedang tahap percobaan (prototype design system)</small>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
